@@ -122,7 +122,7 @@ async def claim_daily_login(header: dict, games: list, exclude: list):
             logging.info(f"Skipping login for {biz_name}")
             continue
 
-        censored_uid = "x" * 4 + game["game_uid"][4:]
+        censored_uid = "x" * 1 + game["game_uid"][4:]
         logging.info(
             f"Checking in {game['nickname']} for {login_const[biz_name]['game_name']} (UID: {censored_uid})"
         )
