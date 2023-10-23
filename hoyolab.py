@@ -462,7 +462,7 @@ async def main():
             return
 
         logging.info("Sleeping for a day...")
-        time.sleep(86400)
+        time.sleep(43200)
 
 
 if __name__ == "__main__":
